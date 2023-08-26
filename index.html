@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+
+  <div class="p-5 container shadow">
+    <!-- Create A Row For Creating 2 Columns -->
+    <div class="p-2 flex-fill d-flex flex-row rounded justify-content-around align-items-top align-content-around text-center">
+      <!-- Result Column -->
+      <div class="border d-flex flex-column bg-dark rounded">
+        <div class="h1 d-flex flex-row  justify-content-around align-items-center align-content-center text-center text-white">
+          Your Resutls
+        </div>
+        <div class="p-2 d-flex flex-row justify-content-around align-items-center align-content-center text-center text-white">
+            76 of 100
+        </div>
+        <div class="p-2 h2 d-flex flex-row justify-content-around align-items-center align-content-center text-center text-white">
+          Great
+        </div>
+    
+        <div class="p-2  d-flex flex-row justify-content-around align-items-center align-content-center text-center text-white">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+
+
+      <!-- Details Column -->
+      <div class="border p-2 flex-fill d-flex flex-column bg-white rounded">
+        <div class="h1 d-flex flex-row justify-content-around align-items-start align-content-center text-center">
+          Summary
+        </div>
+
+        <!-- Reaction Row Starts -->
+        <div class="d-flex flex-row justify-content-around">
+
+          <div class="p-2 d-flex flex-column ">
+            <img class="img w-100 " src="assets/images/icon-reaction.svg">
+          </div>
+          <div class="p-2 d-flex flex-column fw-bold">
+            Reaction
+          </div>
+          <div class="p-2 d-flex flex-column">
+            80
+          </div>
+          <div class="p-2 d-flex flex-column">
+            /
+          </div>
+          <div class="p-2 d-flex flex-column">
+            100
+          </div>
+        </div>
+        <!-- Reaction Row Ends -->
+
+        <!-- Memory Row Starts -->
+        <div class="d-flex flex-row justify-content-around">
+          <div class="p-2 d-flex flex-column ">
+            <img class="img w-100 " src="assets/images/icon-memory.svg">
+          </div>
+          <div class="p-2 d-flex flex-column fw-bold">
+            Memory
+          </div>
+          <div class="p-2 d-flex flex-column">
+            92
+          </div>
+          <div class="p-2 d-flex flex-column">
+            /
+          </div>
+          <div class="p-2 d-flex flex-column">
+            100
+          </div>
+
+        </div>
+        <!-- Memory Row Ends -->
+
+        <!-- Verbal Row Starts -->
+        <div class="d-flex flex-row justify-content-around">
+          <div class="p-2 d-flex flex-column ">
+            <img class="img w-100 " src="assets/images/icon-verbal.svg">
+          </div>
+          <div class="p-2 d-flex flex-column fw-bold">
+            Verbal
+          </div>
+          <div class="p-2 d-flex flex-column">
+            61
+          </div>
+          <div class="p-2 d-flex flex-column">
+            /
+          </div>
+          <div class="p-2 d-flex flex-column">
+            100
+          </div>
+        </div>
+        <!-- Verbal Row Ends -->
+
+        <!-- Visual Row Starts -->
+        <div class="d-flex flex-row justify-content-around">
+          <div class="p-2 d-flex flex-column">
+            <img class="img w-100 " src="assets/images/icon-visual.svg">
+          </div>
+          <div class="p-2 d-flex flex-column fw-bold">
+            Visual
+          </div>
+          <div class="p-2 d-flex flex-column">
+            72
+          </div>
+          <div class="p-2 d-flex flex-column">
+            /
+          </div>
+          <div class="p-2 d-flex flex-column">
+            100
+          </div>
+        </div>
+        <!-- Visual Row Ends -->
+
+        <!-- Button Row Starts -->
+        <div class="d-flex flex-row justify-content-around">
+          <div class="d-grid gap-2 col-10 mx-auto">
+            <button type="button" class="btn btn-primary " role="button">Continue</button>
+          </div>
+        </div>
+        <!-- Button Row Ends -->
+
+
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
